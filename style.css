@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    
+}
+
+#video-bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+.profile-card {
+    width: 250px;
+    padding: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+.profile-image {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 24px;
+    margin: 10px 0;
+
+}
+
+.profile-title {
+    font-size: 18px;
+    color: #000000;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-image: url('facebook.png');
+}
+
+.twitter {
+    background-image: url('twitter.png');
+}
+
+.vsco {
+    background-image: url('vsco.png');
+}
+
+.pin {
+    background-image: url('pinterest.png');
+}
+
+.instagram {
+    background-image: url('instagram.png');
+}
