@@ -42,3 +42,5 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the [MIT License](LICENSE).
 ```
+
+Make sure to update the features, usage instructions, and other details based on the actual content and structure of your repository.
